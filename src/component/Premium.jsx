@@ -24,7 +24,7 @@ const Premium = () => {
         data-aos-easing='easi-out-cubic'>support, exclusive features, and tools designed to help you shine.</p>
       </div>
       <div  
-      className="md:h-[425px] h-max-fit w-full flex items-start justify-center md:flex-row flex-col gap-3 ">
+      className="md:h-[425px] h-max-fit w-full flex items-center md:items-start justify-center md:flex-row flex-col gap-3 ">
         <div 
           data-aos='fade-down'
           data-aos-duration='1000'
@@ -41,7 +41,7 @@ const Premium = () => {
           data-aos='fade-down'
           data-aos-duration='1000'
           data-aos-easing='easi-out-cubic'
-          className="md:h-[350px] md:w-[350px] h-[280px] w-[280px] rounded-full flex items-center  justify-center shadow-xl">
+          className="md:h-[350px] md:w-[350px] h-[280px] w-[280px] rounded-full flex items-center justify-center shadow-xl">
           <img src={Bigcake} alt="Cake image" className="rounded-full" />
         </div>
         <div 
