@@ -7,13 +7,13 @@ const Contact = () => {
       <div
         data-aos="zoom-in"
         data-aos-duration="1500"
-        className="md:h-[500px] md:w-[80%] w-[80%] max-h-fit bg-amber-200 flex-col flex justify-center items-center rounded-xl my-32 text-center"
+        className="md:h-[500px] md:w-[80%] w-[90%] max-h-fit bg-amber-200 flex-col flex justify-center items-center rounded-xl my-32 text-center pt-3"
       >
         <h1 
         data-aos='fade-down'
         data-aos-duration='1000'
         data-aos-easing='ease-in-cubic'
-        className="font-extrabold text-5xl ">
+        className="font-extrabold text-4xl md:text-5xl  ">
           Visit <span className="text-orange-400">our shop</span>
         </h1>
         <p 
@@ -28,7 +28,7 @@ const Contact = () => {
         data-aos='zoom-in'
         data-aos-duration='1200'
         data-aos-easing='ease-in-cubic' 
-        className="text-gray-600">
+        className="text-gray-600 hidden">
           Browse, discover, and enjoy unique finds crafted just for you.
         </p>
         <div

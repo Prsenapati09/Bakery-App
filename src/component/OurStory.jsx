@@ -3,12 +3,12 @@ import Cake from '../assets/cake2.jpg'
 const OurStory = () => {
   return (
     <section 
-    className="h-screen w-full bg-[#2d2d2d] flex items-center justify-center">
+    className="h-screen w-full bg-[#2d2d2d] flex items-start justify-center">
         <div 
         data-aos='fade-down'
         data-aos-duration='1500'
         data-aos-easing='ease-out-cubic'
-        className="md:h-[500px] md:w-[70%] w-[90%] bg-amber-200 rounded-3xl flex items-center justify-around flex-col md:flex-row h-fit">
+        className="md:h-[500px] mt-5 md:mt-20  md:w-[70%] w-[90%]  bg-amber-200 rounded-3xl flex items-center justify-around flex-col md:flex-row h-[600px] ">
             <div 
             data-aos='fade-down'
             data-aos-duration='1500'
@@ -22,7 +22,7 @@ const OurStory = () => {
                     data-aos='fade-down'
                     data-aos-delay='1000'
                     data-aos-easing='easi-out-cubic'
-                className="font-extrabold text-5xl ">Our 
+                className="font-extrabold text-4xl md:text-5xl ">Our 
                     <span className="text-orange-500"> Delicious</span> Story
                 </h1>
                 <p 
@@ -37,7 +37,7 @@ const OurStory = () => {
                 <p
                 data-aos='zoom-in'
                     data-aos-delay='1000'
-                    data-aos-easing='easi-out-cubic'>
+                    data-aos-easing='easi-out-cubic' className=' hidden md:block'>
                 Baking from the heart, sharing joy in every bite.</p>
             </div> 
             <div 

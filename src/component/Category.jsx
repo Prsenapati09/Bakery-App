@@ -42,8 +42,7 @@ const Category = () => {
         data-aos-easing="ease-out-cubic"
       >
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center">
-          Popular{" "}
-          <span className="text-[#ea934c] ">Catagories</span>
+          Popular <span className="text-[#ea934c] ">Catagories</span>
         </h2>
       </div>
       {/* product */}
@@ -53,7 +52,7 @@ const Category = () => {
           data-aos="slide-right"
           data-aos-duration="1000"
           data-aos-easing="linear"
-          className="md:h-[500px] md:w-[33%] w-[96%] flex flex-row md:flex-col items-center justify-center gap-3 "
+          className="md:h-[500px] md:w-[33%] w-[96%] flex flex-col md:flex-col items-center justify-center gap-3 "
         >
           <Categorycom data={item1} />
           <Categorycom data={item2} />
@@ -62,7 +61,7 @@ const Category = () => {
           data-aos="zoom-in-down"
           data-aos-duration="1000"
           data-aos-easing="linear"
-          className="md:h-[400px] md:w-[400px] h-[250px] w-[500px] rounded-4xl shadow-2xl flex md:flex-col flex-row  md:justify-center justify-around items-center"
+          className="md:h-[400px] md:w-[400px] h-[250px] w-[95%] rounded-4xl shadow-2xl flex md:flex-col flex-row  md:justify-center justify-around items-center"
         >
           <div
             data-aos="zoom-in"
@@ -92,7 +91,7 @@ const Category = () => {
           data-aos="slide-left"
           data-aos-duration="1000"
           data-aos-easing="linear"
-          className="md:h-[500px]  md:w-[33%] w-[95%] flex flex-row md:flex-col items-center justify-center gap-3"
+          className="md:h-[500px]  md:w-[35%] w-[95%] flex flex-col md:flex-col  items-center justify-center gap-3"
         >
           <Categorycom data={item4} />
           <Categorycom data={item5} />

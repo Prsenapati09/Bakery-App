@@ -9,27 +9,27 @@ const Premium = () => {
         data-aos='fade-down'
         data-aos-duration='800'
         data-aos-easing='linear'
-        className="font-extrabold text-5xl">
+        className="font-extrabold text-4xl md:text-5xl ">
           Our <span className="text-orange-400 h-fit">Premium</span> Services
         </h1>
         <p 
         data-aos='zoom-in'
         data-aos-duration='1000'
         data-aos-easing='linear'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit tenetur?
+          Experience more with our Premium Service faster 
         </p>
         <p
         data-aos='zoom-in'
         data-aos-duration='1000'
-        data-aos-easing='easi-out-cubic'>Lorem ipsum dolor sit amet consectetur.</p>
+        data-aos-easing='easi-out-cubic'>support, exclusive features, and tools designed to help you shine.</p>
       </div>
       <div  
-      className="md:h-[425px] h-max-fit w-full flex items-center justify-center md:flex-row flex-col gap-3 ">
+      className="md:h-[425px] h-max-fit w-full flex items-start justify-center md:flex-row flex-col gap-3 ">
         <div 
           data-aos='fade-down'
           data-aos-duration='1000'
           data-aos-easing='easi-out-cubic'
-          className="md:w-[33%] w-[95%] flex md:flex-col flex-row gap-3.5 items-center  justify-center ">
+          className="md:w-[35%] w-[95%] flex md:flex-col flex-col gap-3.5 items-center  justify-center ">
           <Premiumcom  image={<ShieldCheck size={20} color='black'/>}
           h='Secure & Reliable'
           description='Your data and privacy and protected with top grade security '/>
@@ -48,7 +48,7 @@ const Premium = () => {
           data-aos='fade-down'
           data-aos-duration='1000'
           data-aos-easing='easi-out-cubic'
-          className="md:w-[33%] w-[80%] flex md:flex-col flex-row gap-3.5 items-center justify-center my-3">
+          className="md:w-[35%] w-[95%] flex md:flex-col flex-col gap-3.5 items-center justify-center my-3">
           <Premiumcom image={<Users size={20} color='black'/>}
           h='24/7 Support'description='Get round the clock customer support form out export team'/>
           <Premiumcom image={<Star size={20} color='black'/>}

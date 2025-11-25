@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 const Hero = () => {
   return (
     <div>
-        <section className="min-h-screen flex items-center justify-center bg-[#2d2d2d] pt-20 px-4 md:px-8 overflow-hidden">
+        <section className="min-h-screen flex items-start justify-center bg-[#2d2d2d] pt-18 pb-5 px-4 md:px-8 overflow-hidden">
             <div data-aos='zoom-in'
             data-aos-duration='1500' className="relative w-full max-w-6xl bg-[#e9c39b] rounded-4xl shadow-2xl flex flex-col md:flex-row items-center justify-between overflow-hidden px-8 md:px-16 md:h-[580px]">
                 <div className="max-w-lg text-center md:text-left spce-y-6 z-10">
